@@ -17,12 +17,6 @@ h1 {
   font-weight: 400;
 }
 
-h2 {
-  font-size: 26px;
-  color: #e66aa3;
-  font-weight: 400;
-}
-
 p {
 	font-size: 14px;
 	color: #3b3b3b;
@@ -30,7 +24,7 @@ p {
 }
 
 .sidenav {
-  height: 190px;
+  height: 238px;
   padding: 40px, 0px, 20px, 0px;
   width: 150px;
   font-size: 18px;
@@ -39,13 +33,17 @@ p {
   border-bottom: 1px solid #cccccc;
 }
 
+.mySidenav {
+  text-align: center;
+}
+
 a {
 	text-decoration: none;
   line-height: 1.3;
 } 
 
 a:link, a:visited {
-	color: #7d7d7d;
+	color: #8a8a8a;
   font-weight: 400;
 }
 
@@ -55,6 +53,23 @@ a:hover {
 
 a:active {
 	color: #ad399c;
+}
+
+.navIcons {
+  padding-top: 8px;
+  width:100%;
+  display: inline-block;
+}
+  img {
+  width: 16px;
+  height: 16px;
+  padding-right: 3.5%;
+}
+
+.aboutIcons img {
+  width: 18px;
+  height: 18px;
+  padding-right: 6px;
 }
 
 #fynnmichlin {
@@ -93,7 +108,7 @@ a:active {
 @media only screen and (min-width: 700px) {
 
 .sidenav{
-  height: 200px;
+  height: 240px;
   width: 125px;
   position: fixed;
   top: 105px;
@@ -113,7 +128,7 @@ a:active {
 
 .bcembed-med {
   max-width: 80%;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .vimeoembed {
@@ -125,4 +140,8 @@ a:active {
 p {
   font-size: 18px;
 }
+.aboutIcons a {
+font-size: 18px;
 }
+}
+
