@@ -9,6 +9,11 @@ html {
   html {
     font-weight: 400;
   }
+
+  .vimeoembed iframe{
+  width:100%;
+  align-content: left;
+}
 }
 
 h1 {
@@ -114,6 +119,8 @@ img {
   float:left;
   margin: auto;
 }
+
+
 
 /*if screen is 700px or more (ie web)*/
 @media only screen and (min-width: 700px) {
