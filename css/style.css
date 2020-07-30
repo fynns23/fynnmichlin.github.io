@@ -114,12 +114,6 @@ img {
   padding-bottom: 20px;
 }
 
-.vimeoembed {
-  width:100%;
-  float:left;
-  margin: auto;
-}
-
 
 
 /*if screen is 700px or more (ie web)*/
@@ -149,10 +143,18 @@ img {
   padding-bottom: 10px;
 }
 
-.vimeoembed {
-  width:80%;
-  float:left;
+.vidrow {
+  width: 105%;
+   float:left;
   margin: auto;
+}
+.vimeoembed {
+  min-width: 285px;
+  width:47%;
+  height: 100%;
+  float:left;
+  margin: 0;
+  padding-right: 15px;
 }
 
 p {
