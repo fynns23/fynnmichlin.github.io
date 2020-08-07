@@ -126,14 +126,14 @@ img {
   min-height: 100%;
 }
 .landing {
-position: fixed;
-top: calc(50vh - 80px);
-left: calc(50vw - 80px);
-padding: 20px 18px;
-width:125px;
-height:155px;
-background-color:rgba(255, 255, 255, 0.97);
-border-radius: 35px;
+  position: fixed;
+  top: calc(50vh - 120px);
+  left: calc(50vw - 80px);
+  padding: 20px 20px;
+  width:125px;
+  height:155px;
+  background-color:rgba(255, 255, 255, 0.97);
+  border-radius: 35px;
 }
 
 .landing img { /*w297 h250*/
