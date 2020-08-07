@@ -6,6 +6,8 @@
   	<meta name="viewport" content="width=device-width, user-scalable=no">
   	<link rel="stylesheet" type="text/css" href="css/style.css">
   	<link rel="icon" href="img/favicon.ico" type="image/x-icon" sizes="32x32">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   
   </head>
 
 <body>
@@ -16,11 +18,14 @@
   <source src="bgvid.mp4" type="video/mp4">
 </video>
 
-
- <menu class="landing">
+<div class="landing">
      <a href="about.html"><img src="img/fynnlogo/fynnlogo-02-thin.png" alt="Fynn Michlin"></a>
      <a href="about.html" style="font-size: 30px; font-weight:300;">enter site</a>
-</menu>
+</div>
+ <script>
+    $(".landing").hide(0).delay(750).fadeIn(750)
+</script>
+
 
 </body>
 </html>
