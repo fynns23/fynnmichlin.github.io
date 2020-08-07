@@ -120,6 +120,47 @@ img {
 
 
 
+
+#landingVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.landing {
+position: absolute;
+top: calc(50vh - 100px);
+left: calc(50vw - 100px);
+padding: 35px 35px;
+border-radius: 3px;
+z-index: 100;
+width:125px;
+height:155px;
+background-color:rgba(255, 255, 255, 0.97);
+border-radius: 30px;
+/*display: none;*/
+
+
+}
+
+.landing img { /*w297 h250*/
+  width:100%;
+  height: 105px;
+  padding-left: 4.5%;
+  padding-bottom: 10px;
+}
+
+.landing a {
+  color: black;
+}
+
+
+
+
+
+
+
 /*if screen is 700px or more (ie web)*/
 @media only screen and (min-width: 700px) {
 
@@ -185,38 +226,4 @@ font-size: 18px;
   width:55%;
   margin-left: 250px; /* Same as the width of the sidenav */
   text-align: right;
-}
-
-#landingVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-.landing {
-position: absolute;
-top: calc(50vh - 100px);
-left: calc(50vw - 100px);
-padding: 35px 35px;
-border-radius: 3px;
-z-index: 100;
-width:125px;
-height:155px;
-background-color:rgba(255, 255, 255, 0.95);
-border-radius: 30px;
-/*display: none;*/
-
-
-}
-
-.landing img { /*w297 h250*/
-  width:100%;
-  height: 105px;
-  padding-left: 4.5%;
-  padding-bottom: 10px;
-}
-
-.landing a {
-  color: black;
 }
