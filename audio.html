@@ -6,6 +6,7 @@
   	<meta name="viewport" content="width=device-width, user-scalable=no">
   	<link rel="stylesheet" type="text/css" href="css/style.css">
   	<link rel="icon" href="img/favicon.ico" type="image/x-icon" sizes="32x32">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   </head>
 
 <body>
@@ -84,7 +85,7 @@
    <iframe src="https://player.vimeo.com/video/444787362?title=0&byline=0&portrait=0" width="285" height="255" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   </div> 
 
-<div class="vimeoembed" >  
+<div class="vimeoembed">  
    <p> <a href="https://vimeo.com/418370222" target="_blank">cafe figures moblur</a> (dr gina moore)</p>
    <iframe src="https://player.vimeo.com/video/418370222?title=0&byline=0&portrait=0" width="285" height="215"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div> 
@@ -107,6 +108,11 @@
 
 </div>
 <br>
+ <script>
+  $(window).ready(function(){
+    $(".main").hide(0).delay(50).fadeIn(550);
+  });
+</script>
 </body>
 <!-- <footer>© fynn michlin 2020</footer> -->
 </html>
