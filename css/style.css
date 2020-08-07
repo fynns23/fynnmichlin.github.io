@@ -118,9 +118,6 @@ img {
   padding-bottom: 20px;
 }
 
-
-
-
 #landingVideo {
   position: fixed;
   right: 0;
@@ -129,19 +126,14 @@ img {
   min-height: 100%;
 }
 .landing {
-position: absolute;
-top: calc(50vh - 100px);
-left: calc(50vw - 100px);
-padding: 35px 35px;
-border-radius: 3px;
-z-index: 100;
+position: fixed;
+top: calc(50vh - 80px);
+left: calc(50vw - 80px);
+padding: 20px 18px;
 width:125px;
 height:155px;
 background-color:rgba(255, 255, 255, 0.97);
-border-radius: 30px;
-/*display: none;*/
-
-
+border-radius: 35px;
 }
 
 .landing img { /*w297 h250*/
@@ -155,6 +147,22 @@ border-radius: 30px;
   color: black;
 }
 
+.allmusicentry {
+  margin-top: 20px ;
+  max-width: 500px;
+}
+
+.allmusicentry p {
+  margin: 0;
+}
+
+.footer {
+  font-size: 14px;
+  opacity: 0.5;
+  width:55%;
+  margin-left: 250px; /* Same as the width of the sidenav */
+  text-align: right;
+}
 
 
 
@@ -206,24 +214,8 @@ border-radius: 30px;
 p {
   font-size: 18px;
 }
+
 .aboutIcons a {
 font-size: 18px;
 }
-}
-
-.allmusicentry {
-  margin-top: 20px ;
-  max-width: 500px;
-}
-
-.allmusicentry p {
-  margin: 0;
-}
-
-.footer {
-  font-size: 14px;
-  opacity: 0.5;
-  width:55%;
-  margin-left: 250px; /* Same as the width of the sidenav */
-  text-align: right;
 }
