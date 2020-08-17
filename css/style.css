@@ -211,6 +211,34 @@ img {
   padding-right: 15px;
 }
 
+.bigpaintrow {
+  width: 154%; 
+  float: left;
+  margin:auto;
+}
+
+.paintrow {
+  max-width: 83%;
+  float:left;
+  margin: auto;
+}
+.painting {
+  width: 300px;
+  height: 100%;
+  float:left;
+  margin: auto;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.painting img {
+  padding-bottom: 15px;
+}
+
+.painting h2 {
+  line-height: 0;
+}
+
 p {
   font-size: 18px;
 }
