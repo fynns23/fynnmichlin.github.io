@@ -163,8 +163,23 @@ img {
   margin-left: 250px; /* Same as the width of the sidenav */
   text-align: right;
 }
+.paintingland {
+  max-width: 300px;
+  height: 100%;
+  float:left;
+  margin: auto;
+  padding-right: 30px;
+  padding-bottom: 25px;
+}
 
+.painting {
+  padding-bottom: 25px;
+  width: 60%;
+}
 
+.paintmain img {
+  padding-bottom: 15px;
+}
 
 
 
@@ -186,6 +201,13 @@ img {
 }
 
 .main {
+  width:55%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: 275px; /* Same as the width of the sidenav */
+}
+
+.paintmain {
   width:55%;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -228,19 +250,34 @@ img {
   float:left;
   margin: auto;
   padding-right: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
-.painting img {
-  padding-bottom: 15px;
+.paintingland {
+  max-width: 440px;
+  height: 100%;
+  float:left;
+  margin: auto;
+  padding-right: 30px;
+  padding-bottom: 10px;
 }
 
-.painting h2 {
+}
+.painting, .paintingland h2 {
   line-height: 0;
 }
 
 p {
   font-size: 18px;
+}
+
+.paintmain p {
+  font-size: 14px;
+}
+}
+
+.paint p {
+  font-size: 14px;
 }
 
 .aboutIcons a {
