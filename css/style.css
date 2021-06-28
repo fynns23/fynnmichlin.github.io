@@ -100,7 +100,7 @@ img {
 	color: #ad399c;
 }
 
-#finem {
+#finem, #norby {
   color: #e66aa3;
 }
 
@@ -124,6 +124,10 @@ img {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+}
+
+#video {
+  display: none;
 }
 .landing {
   position: fixed;
@@ -164,21 +168,24 @@ img {
   text-align: right;
 }
 .paintingland {
-  max-width: 300px;
-  height: 100%;
+ width:100%;
+ height: 100%;
   float:left;
   margin: auto;
   padding-right: 30px;
   padding-bottom: 25px;
 }
 
+.paintingland img {
+ object-fit: contain;
+ max-width:90%;
+ max-height: 100%;
+
+}
+
 .painting {
   padding-bottom: 25px;
   width: 60%;
-}
-
-.paintmain img {
-  padding-bottom: 15px;
 }
 
 
@@ -214,15 +221,38 @@ img {
   margin-left: 275px; /* Same as the width of the sidenav */
 }
 
+/*.paintmain img {
+ object-fit: contain;
+ width:300px;
+ height: 386px;*/
+}
+}
+
 .bcembed-med {
   max-width: 80%;
   padding-bottom: 10px;
+}
+
+.animationrow {
+  width: 100%;
+   float:left;
+  margin: auto;
+}
+
+.animationembed {
+  min-width: 285px;
+  width:100%;
+  height: 100%;
+  float:left;
+  margin: 0;
+  padding-right: 15px;
 }
 
 .vidrow {
   width: 105%;
    float:left;
   margin: auto;
+  padding-bottom: 30px;
 }
 .vimeoembed {
   min-width: 285px;
@@ -232,6 +262,7 @@ img {
   margin: 0;
   padding-right: 15px;
 }
+
 
 .bigpaintrow {
   width: 154%; 
@@ -250,7 +281,7 @@ img {
   float:left;
   margin: auto;
   padding-right: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .paintingland {
@@ -259,6 +290,25 @@ img {
   float:left;
   margin: auto;
   padding-right: 30px;
+  padding-bottom: 15px;
+}
+
+.paintingland img {
+ object-fit: contain;
+ max-width:100%;
+ max-height: 100%;
+  /* padding-bottom: 15px;*/
+ }
+
+.painting img {
+ padding-bottom: 0px;
+
+}
+
+#video {
+  display: inline;
+  width: 100%;
+  max-width: 500px;
   padding-bottom: 10px;
 }
 
@@ -269,6 +319,7 @@ img {
 
 p {
   font-size: 18px;
+  margin: 2px ;
 }
 
 .paintmain p {
