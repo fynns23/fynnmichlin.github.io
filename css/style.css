@@ -5,6 +5,25 @@ html {
     background-color: white;
     padding-left: 20px;
 }
+
+.accordion {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-right: 10px; /* space between arrow and text */
+}
+.arrow svg {
+  transition: transform 0.3s ease;
+}
+
+.accordion.active .arrow svg {
+  transform: rotate(90deg);
+}
+
+
+
 @media only screen and (max-width: 700px) {
   html {
     font-weight: 400;
@@ -286,6 +305,11 @@ img {
   margin:auto;
 }
 
+.albumrow {
+  width: 154%; 
+  float: left;
+  margin:auto;
+
 .paintrow {
   max-width: 83%;
   float:left;
@@ -299,6 +323,14 @@ img {
   padding-right: 30px;
   padding-bottom: 15px;
 }
+
+.album {
+  width: 250px;
+  height: 100%;
+  float:left;
+  margin: auto;
+  padding-right: 30px;
+  padding-bottom: 15px;
 
 .paintingland {
   max-width: 440px;
